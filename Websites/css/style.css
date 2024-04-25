@@ -1,0 +1,267 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'font';
+	src: url('../font/font.ttf');
+	font-family: 'font';
+}
+nav {
+	width: 100vw;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	width: 118px;
+	height: 60px;
+	justify-content: space-around;
+}
+.link{
+	width: 1100px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	font-family: font;
+}
+.link > button {
+	width: 110px;
+	height: 30px;
+	border-radius: 5px;
+	border: 2px solid #444;
+	background: transparent;
+	font-size: 12px;
+}
+.link > button:hover {
+	color: blue;
+	transition: all .5s ease;
+}
+.link > button:active {
+	cursor: progress;
+}
+.content {
+	width: 100vw;
+	height: 400px;
+	display: flex;
+}
+.con {
+	width: 50vw;
+	height: 400px;
+	margin: 70px 30px;
+}
+.con > h2 {
+	width: 230px;
+	height: 100px;
+}
+.content > .con1 > img {
+	width: 50vw;
+	height: 400px;
+}
+.con > h5 {
+	width: 300px;
+	height: 50px;
+	font-size: 10px;
+	margin-top: 5px;
+}
+.con > button {
+	width: 140px;
+	height: 30px;
+	background: black;
+	color: #fff;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.con > button:hover {
+	cursor: pointer;
+	background: transparent;
+	color: #333;
+}
+.container {
+	width: 113vw;
+	height: 50px;
+	display: flex;
+}
+h3 {
+	width: 100vw;
+	height: 30px;
+	justify-content: space-between;
+}
+.con3 {
+	width: 1630px;
+	height: 60px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.con3 > h2 {
+	width: 150px;
+	height: 35px;
+	background: lightgreen;
+	border-radius: 5px;
+	text-align: center;
+	justify-content: space-between;
+	margin-left: -300px;
+}
+.con3 > h4 {
+	width: 500px;
+	height: 35px;
+	justify-content: space-evenly;
+	font-size: 11px;
+}
+.box {
+	width: 1350px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-block: 40px;
+}
+.top { 
+	width: 400px; 
+	height: 200px; 
+	justify-content:space-start;
+	border-radius: 30px;
+	padding: 20px;
+	box-shadow: 5px 5px 10px grey;
+ }
+ .top > h2 {
+ 	width: 148px;
+ 	border-radius: 5px;
+ 	background: lightgreen;
+ }
+ .top > h5 {
+ 	width: 100px;
+ 	font-size: 14px;
+ 	margin-top: 90px;
+ }
+.top1 {
+	width: 400px;
+	height: 200px;
+	justify-content: flex-end;
+	padding: 20px;
+	background: black;
+	box-shadow: 5px 5px 10px gray;
+	margin: 10px;
+	border-radius: 30px;
+}
+ .top1 > h2 {
+ 	width: 148px;
+ 	border-radius: 5px;
+ 	background: #fff;
+ }
+ .top1 > h5 {
+ 	width: 100px;
+ 	font-size: 14px;
+ 	margin-top: 90px;
+ 	color: #fff;
+ }
+.top2 {
+	width: 400px;
+	justify-content: flex-start;
+	height: 200px;
+	border-radius: 30px;
+	padding: 20px;
+	box-shadow: 5px 5px 10px dimgray;
+	margin: 10px;
+	background: black;
+}
+ .top2 > h2 {
+ 	width: 148px;
+ 	border-radius: 5px;
+ 	background: lightgreen;
+ 	color: #fff;
+ }
+ .top2 > h5 {
+ 	width: 100px;
+ 	font-size: 14px;
+ 	margin-top: 90px;
+ 	color: #fff;
+ }
+.top3{
+	width: 400px;
+	height: 200px;
+	justify-content: flex-end;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 5px 5px 10px grey;
+}
+ .top3 > h2 {
+ 	width: 148px;
+ 	border-radius: 5px;
+ 	background: gold;
+ }
+ .top3 > h5 {
+ 	width: 100px;
+ 	font-size: 14px;
+ 	margin-top: 90px;
+ 	color: dimgrey;
+ }
+.contain {
+	width: 1000px;
+	height: 250px;
+	display: flex;	
+	margin-left: 150px;
+	background: rgba(100, 100, 90, .2);
+	border-radius: 20px;
+}
+.wr {
+	width: 50%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+}
+.wr > h2 {
+	width: 300px;
+	margin: 10px;
+}
+.wr > h5 {
+	width: 350px;
+	font-size: 11px;
+	margin: 10px;
+}
+.wr > button {
+	width: 200px;
+	height: 50px;
+	background: black;
+	color: #fff;
+	margin: 10px;
+	border-radius: 10px;
+}
+.wr > button:hover {
+	background: white;
+	color: #333;
+}
+.tap {
+	width: 50%;
+	height: 250px;
+	display: flex;
+}
+.tap > img {
+	width: 100%;
+	height: 250px;
+	font-size: 30px;
+}
+.vr {
+	width: 1350px;
+	height: 100px;
+	display: flex;
+	margin-top: 100px;
+	justify-content: space-around;
+}
+.vr > h3 {
+	width: 170px;
+	height: 50px;
+	background: aqua;
+	justify-content: space-evenly;
+	font-size: 35px;
+}
+.vr > h5 {
+	width: 600px;
+	height: 50px;
+	justify-content: space-evenly;
+}
